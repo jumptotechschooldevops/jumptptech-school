@@ -88,6 +88,10 @@ extra:
 
 nav:
   - Home: index.md
+  - "00 · Fundamentals":
+      - modules/00-fundamentals/index.md
+      - Lectures:
+          - "L1: Computer Hardware for SRE Engineers": modules/00-fundamentals/lecture-01-hardware.md
   - "01 · Git":
       - modules/01-git/index.md
       - Lectures:
