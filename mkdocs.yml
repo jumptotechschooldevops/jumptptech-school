@@ -174,6 +174,7 @@ nav:
           - "Docker": modules/04-docker/docker.md
           - "Lab: Build, Run, and Debug a Basic Dockerized Node.js App": modules/04-docker/lab-build-run-and-debug-a-basic-dockerized-nodejs-app.md
           - "PROJECT: Registry Module + Version Pinning": modules/04-docker/project-registry-module-version-pinning.md
+          - "Docker": modules/04-docker/docker-2.md
   - "05 · Kubernetes":
       - modules/05-kubernetes/index.md
       - Lectures:
@@ -240,6 +241,7 @@ nav:
           - "What Is a Controller in Kubernetes?": modules/05-kubernetes/what-is-a-controller-in-kubernetes.md
           - "WHAT IS A SECRET?": modules/05-kubernetes/what-is-a-secret.md
           - "What problem do Config & Secret solve?": modules/05-kubernetes/what-problem-do-config-secret-solve.md
+          - "Kubernetes Networking — Broken Labs & Incident Response": modules/05-kubernetes/kubernetes-networking-devops-production-guide-2.md
   - "06 · CI/CD":
       - modules/06-cicd/index.md
       - Lectures:
@@ -285,6 +287,7 @@ nav:
           - "What is Jenkins?": modules/06-cicd/what-is-jenkins-gh.md
           - "what problem solve Jenkins": modules/06-cicd/what-problem-solve-jenkins.md
           - "Why Companies Still Use Jenkins": modules/06-cicd/why-companies-still-use-jenkins.md
+          - "AWS EC2 (Ubuntu) --------------------- Jenkins Controller (Orchestrator)": modules/06-cicd/aws-ec2-ubuntu-jenkins-2.md
   - "07 · Terraform":
       - modules/07-terraform/index.md
       - Lectures:
