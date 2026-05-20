@@ -2,7 +2,7 @@
 
 Welcome to the JumptpTech DevOps curriculum. This is a hands-on program built for engineers who want to understand how production systems actually work — not just pass a certification exam.
 
-The course runs eight modules, each one building on the last. By the end you will be comfortable taking code from a developer's laptop through a CI/CD pipeline, packaging it in containers, deploying it to Kubernetes, and watching it with Prometheus and Grafana. You will do this for real, with real tools, on real infrastructure.
+The course runs thirteen modules, each one building on the last. By the end you will be comfortable taking code from a developer's laptop through a CI/CD pipeline, packaging it in containers, deploying it to Kubernetes, and watching it with Prometheus and Grafana. You will do this for real, with real tools, on real infrastructure.
 
 ---
 
@@ -29,6 +29,11 @@ Modules must be done in order. A student who skips Linux basics will struggle wi
 | 06 | [CI/CD](modules/06-cicd/index.md) | GitHub Actions, test automation, image builds, deployments |
 | 07 | [Terraform](modules/07-terraform/index.md) | HCL, providers, state, modules, workspaces |
 | 08 | [Monitoring](modules/08-monitoring/index.md) | Prometheus, Grafana, alerting, dashboards, log aggregation |
+| 09 | AWS (SAA-C04) | EC2, S3, IAM, VPC, RDS, Lambda, EKS, CloudFront |
+| 10 | Ansible | playbooks, inventory, roles, agentless automation |
+| 11 | Kafka | topics, producers, consumers, streams, Confluent |
+| 12 | Azure | VMs, AKS, networking, Azure DevOps |
+| 13 | Prometheus & Grafana | metrics, dashboards, alerting, PromQL, SRE |
 
 ---
 

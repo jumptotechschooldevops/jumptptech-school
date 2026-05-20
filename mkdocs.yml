@@ -499,3 +499,4 @@ nav:
       - kubectl: cheatsheets/kubectl.md
       - Terraform: cheatsheets/terraform.md
       - PromQL: cheatsheets/promql.md
+      - API: cheatsheets/api.md
