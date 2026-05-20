@@ -1,4 +1,4 @@
-# how to install prometheus
+# How to Install Prometheus
 
 #  1\. Connect to Ubuntu EC2 
 [code] 
