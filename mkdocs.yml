@@ -102,65 +102,68 @@ nav:
           - "Lab 2: Team Workflow": modules/01-git/lab-02-collaboration.md
   - "02 · Linux":
       - modules/02-linux/index.md
-      - Lectures:
+      - Fundamentals:
           - "L1: Filesystem & Navigation": modules/02-linux/lecture-01-filesystem.md
-          - "L2: Processes & Services": modules/02-linux/lecture-02-processes.md
-          - "L3: Shell Scripting": modules/02-linux/lecture-03-scripting.md
-      - Labs:
-          - "Lab 1: Navigation & Permissions": modules/02-linux/lab-01-navigation.md
-          - "Lab 2: Processes & systemd": modules/02-linux/lab-02-processes.md
-          - "Lab 3: Scripting": modules/02-linux/lab-03-scripting.md
-      - Articles:
-          - "linux day #1": modules/02-linux/linux-day-1.md
-          - "linux day #2": modules/02-linux/linux-day-2.md
-          - "linux day #3": modules/02-linux/linux-day-3.md
-          - "linux day #4": modules/02-linux/linux-day-4.md
-          - "linux day #5": modules/02-linux/linux-day-5.md
-          - "linux day #6": modules/02-linux/linux-day-6.md
-          - "Linux Globbing — FULL Exercise Set": modules/02-linux/linux-globbing-full-exercise-set.md
-          - "Linux Package Management & Job Control – Practice Exercises": modules/02-linux/linux-package-management-job-control-practice-exercises.md
-          - "practical Linux knowledge map for a DevOps engineer": modules/02-linux/practical-linux-knowledge-map-for-a-devops-engineer.md
-          - "PROJECT: Linux Log Monitoring & Auto-Alert System (Bash)": modules/02-linux/project-linux-log-monitoring-auto-alert-system-bash.md
-          - "Project: SSH & Server Security": modules/02-linux/project-ssh-server-security.md
           - "simple Linux commands": modules/02-linux/simple-linux-commands.md
           - "Ubuntu commands": modules/02-linux/ubuntu-commands.md
+          - "practical Linux knowledge map for a DevOps engineer": modules/02-linux/practical-linux-knowledge-map-for-a-devops-engineer.md
+          - "Lab 1: Navigation & Permissions": modules/02-linux/lab-01-navigation.md
+          - "linux day #1": modules/02-linux/linux-day-1.md
+          - "linux day #2": modules/02-linux/linux-day-2.md
+      - Filesystem:
+          - "Linux Globbing — FULL Exercise Set": modules/02-linux/linux-globbing-full-exercise-set.md
+          - "linux day #3": modules/02-linux/linux-day-3.md
+      - Processes:
+          - "L2: Processes & Services": modules/02-linux/lecture-02-processes.md
+          - "Lab 2: Processes & systemd": modules/02-linux/lab-02-processes.md
+          - "Linux Package Management & Job Control – Practice Exercises": modules/02-linux/linux-package-management-job-control-practice-exercises.md
+          - "linux day #4": modules/02-linux/linux-day-4.md
+          - "linux day #5": modules/02-linux/linux-day-5.md
+      - Scripting:
+          - "L3: Shell Scripting": modules/02-linux/lecture-03-scripting.md
+          - "Lab 3: Scripting": modules/02-linux/lab-03-scripting.md
+          - "linux day #6": modules/02-linux/linux-day-6.md
+      - Projects:
+          - "PROJECT: Linux Log Monitoring & Auto-Alert System (Bash)": modules/02-linux/project-linux-log-monitoring-auto-alert-system-bash.md
+          - "Project: SSH & Server Security": modules/02-linux/project-ssh-server-security.md
   - "03 · Networking":
       - modules/03-networking/index.md
-      - Lectures:
+      - Fundamentals:
           - "L1: TCP/IP & DNS Fundamentals": modules/03-networking/lecture-01-fundamentals.md
           - "L2: Network Tools & Troubleshooting": modules/03-networking/lecture-02-tools.md
+          - "Network basics": modules/03-networking/network-basics.md
+          - "Network Topologies (How devices are connected)": modules/03-networking/network-topologies-how-devices-are-connected.md
+          - "OSI model": modules/03-networking/osi-model.md
+          - "Protocol TCP/IP vs OSI": modules/03-networking/protocol-tcpip-vs-osi.md
+          - "What is network protocol": modules/03-networking/what-is-network-protocol.md
+          - "Sizes in Computers (VERY IMPORTANT FOUNDATION)": modules/03-networking/sizes-in-computers-very-important-foundation.md
+          - "IP address": modules/03-networking/ip-address.md
+          - "IP addresses": modules/03-networking/ip-addresses.md
+          - "IP address and subletting": modules/03-networking/ip-address-and-subletting.md
+          - "SUBNET MASK (STRUCTURED + WITH CODE EXAMPLES)": modules/03-networking/subnet-mask-structured-with-code-examples.md
+          - "Subnetting explained": modules/03-networking/subnetting-explained.md
+          - "Networking Foundations for Cloud Engineers": modules/03-networking/networking-foundations-for-cloud-engineers.md
+          - "Networking for DevOps (Senior-Level, Production-Focused)": modules/03-networking/networking-for-devops-senior-level-production-focused.md
+      - DNS:
           - "L3: DNS — Full In-Depth Explanation": modules/03-networking/lecture-03-dns.md
+          - "DNS — full in-depth explanation": modules/03-networking/dns-full-in-depth-explanation.md
+          - "DHCP vs DNS – Full Explanation (Production-Level Understanding)": modules/03-networking/dhcp-vs-dns-full-explanation-production-level-understanding.md
+      - "VPC & AWS Networking":
+          - "Enterprise Network Lab: Private IP, Public IP, DHCP, NAT, and DMZ": modules/03-networking/enterprise-network-lab-private-ip-public-ip-dhcp-nat-and-dmz.md
+          - "Production-Style Network Architecture Lab with VLAN, DHCP, DNS & Security": modules/03-networking/production-style-network-architecture-lab-with-vlan-dhcp-dns-security.md
+          - "proxy, firewall and DMZ on packet tracer": modules/03-networking/proxy-firewall-and-dmz-on-packet-tracer.md
+          - "Install Packet Tracer (Mac) + First Network": modules/03-networking/install-packet-tracer-mac-first-network.md
+          - "packet tracer lab: subletting": modules/03-networking/packet-tracer-lab-subletting.md
       - Labs:
           - "Lab 1: Diagnostics & Inspection": modules/03-networking/lab-01-diagnostics.md
-      - Articles:
           - "DEVOPS SSH & NETWORKING PRACTICAL LAB": modules/03-networking/devops-ssh-networking-practical-lab.md
-          - "DHCP vs DNS – Full Explanation (Production-Level Understanding)": modules/03-networking/dhcp-vs-dns-full-explanation-production-level-understanding.md
-          - "DNS — full in-depth explanation": modules/03-networking/dns-full-in-depth-explanation.md
-          - "Enterprise Network Lab: Private IP, Public IP, DHCP, NAT, and DMZ": modules/03-networking/enterprise-network-lab-private-ip-public-ip-dhcp-nat-and-dmz.md
-          - "Install Packet Tracer (Mac) + First Network": modules/03-networking/install-packet-tracer-mac-first-network.md
-          - "IP address": modules/03-networking/ip-address.md
-          - "IP address and subletting": modules/03-networking/ip-address-and-subletting.md
-          - "IP addresses": modules/03-networking/ip-addresses.md
           - "LAB 1 — End-to-End Application + DNS + HTTP": modules/03-networking/lab-1-end-to-end-application-dns-http.md
           - "Lab: Control traffic between teams using ACLs": modules/03-networking/lab-control-traffic-between-teams-using-acls-sre-engineer-related.md
           - "LAB: Subnetting with Router (2 Networks)": modules/03-networking/lab-subnetting-with-router-2-networks.md
           - "Mini Project: Network Visibility with Wireshark (DevOps Basics)": modules/03-networking/mini-project-network-visibility-with-wireshark-devops-basics.md
-          - "Network basics": modules/03-networking/network-basics.md
-          - "Network Topologies (How devices are connected)": modules/03-networking/network-topologies-how-devices-are-connected.md
           - "NETWORK TROUBLESHOOTING LAB (DevOps)": modules/03-networking/network-troubleshooting-lab-devops.md
-          - "Networking for DevOps (Senior-Level, Production-Focused)": modules/03-networking/networking-for-devops-senior-level-production-focused.md
-          - "Networking Foundations for Cloud Engineers": modules/03-networking/networking-foundations-for-cloud-engineers.md
-          - "OSI model": modules/03-networking/osi-model.md
-          - "packet tracer lab: subletting": modules/03-networking/packet-tracer-lab-subletting.md
-          - "Production-Style Network Architecture Lab with VLAN, DHCP, DNS & Security": modules/03-networking/production-style-network-architecture-lab-with-vlan-dhcp-dns-security.md
-          - "Protocol TCP/IP vs OSI": modules/03-networking/protocol-tcpip-vs-osi.md
-          - "proxy, firewall and DMZ on packet tracer": modules/03-networking/proxy-firewall-and-dmz-on-packet-tracer.md
-          - "real recruiter conversation script": modules/03-networking/real-recruiter-conversation-script.md
           - "Runbook: Application Down (Packet Tracer / Network-Based App)": modules/03-networking/runbook-application-down-packet-tracer-network-based-app.md
-          - "Sizes in Computers (VERY IMPORTANT FOUNDATION)": modules/03-networking/sizes-in-computers-very-important-foundation.md
-          - "SUBNET MASK (STRUCTURED + WITH CODE EXAMPLES)": modules/03-networking/subnet-mask-structured-with-code-examples.md
-          - "Subnetting explained": modules/03-networking/subnetting-explained.md
-          - "What is network protocol": modules/03-networking/what-is-network-protocol.md
+          - "real recruiter conversation script": modules/03-networking/real-recruiter-conversation-script.md
   - "04 · Docker":
       - modules/04-docker/index.md
       - Lectures:
@@ -177,273 +180,308 @@ nav:
           - "Docker": modules/04-docker/docker-2.md
   - "05 · Kubernetes":
       - modules/05-kubernetes/index.md
-      - Lectures:
+      - Fundamentals:
           - "L1: Architecture & Core Objects": modules/05-kubernetes/lecture-01-architecture.md
           - "L2: Workloads & Config": modules/05-kubernetes/lecture-02-workloads.md
           - "L3: Networking & Storage": modules/05-kubernetes/lecture-03-networking.md
-      - Labs:
-          - "Lab 1: Deployments & Rolling Updates": modules/05-kubernetes/lab-01-deployments.md
-          - "Lab 2: Services & Ingress": modules/05-kubernetes/lab-02-services.md
-      - Articles:
+          - "Kubernetes": modules/05-kubernetes/kubernetes.md
+          - "What Is a Controller in Kubernetes?": modules/05-kubernetes/what-is-a-controller-in-kubernetes.md
           - "A controller in Kubernetes is a control loop that": modules/05-kubernetes/a-controller-in-kubernetes-is-a-control-loop-that.md
-          - "ADVANCED KUBERNETES INTERVIEW Q&A mock interview #2": modules/05-kubernetes/advanced-kubernetes-interview-qa-mock-interview-2.md
+      - Workloads:
+          - "Lab 1: Deployments & Rolling Updates": modules/05-kubernetes/lab-01-deployments.md
+          - "Deployment strategies": modules/05-kubernetes/deployment-strategies.md
+          - "Kubernetes Rolling Update & Downtime": modules/05-kubernetes/kubernetes-rolling-update-downtime.md
+          - "canary vs rolling update": modules/05-kubernetes/canary-vs-rolling-update.md
+          - "canary procedure": modules/05-kubernetes/canary-procedure.md
+          - "Production Canary Architecture (what actually guarantees zero downtime)": modules/05-kubernetes/production-canary-architecture-what-actually-guarantees-zero-downtime.md
+          - "Blue-Green Deployment on EKS": modules/05-kubernetes/blue-green-deployment-on-eks.md
+          - "Developer CI Dev Stage Production": modules/05-kubernetes/developer-ci-dev-stage-production.md
+      - Networking:
+          - "Lab 2: Services & Ingress": modules/05-kubernetes/lab-02-services.md
+          - "Kubernetes Services & Networking, probes": modules/05-kubernetes/kubernetes-services-networking.md
+          - "Kubernetes Networking — DevOps Production Guide": modules/05-kubernetes/kubernetes-networking-devops-production-guide.md
+          - "Kubernetes Core: Pod Lifecycle & Health, Networking From DevOps Production Interview": modules/05-kubernetes/kubernetes-core-pod-lifecycle-health-networking-from-devops-production-interview.md
+          - "Kubernetes Networking — Broken Labs & Incident Response": modules/05-kubernetes/kubernetes-networking-devops-production-guide-2.md
+      - Storage:
+          - "Headless Services, StatefulSets, Volumes, PV/PVC, Databases, and Production Architecture": modules/05-kubernetes/headless-services-statefulsets-volumes-pvpvc-databases-and-production-architecture.md
+          - "PART 1 — StatefulSet + Headless Service + Persistent Storage": modules/05-kubernetes/part-1-statefulset-headless-service-persistent-storage.md
+          - "production-style, fully working MySQL StatefulSet (primary + replicas with headless ClusterIP)": modules/05-kubernetes/production-style-fully-working-mysql-statefulset-primary-replicas-with-headless-clusterip.md
+          - "Project: Understanding Kubernetes Volume Types": modules/05-kubernetes/project-understanding-kubernetes-volume-types.md
+      - Configuration:
+          - "production-grade guide to Configuration & Secrets in Kubernetes": modules/05-kubernetes/production-grade-guide-to-configuration-secrets-in-kubernetes.md
+          - "What problem do Config & Secret solve?": modules/05-kubernetes/what-problem-do-config-secret-solve.md
+          - "WHAT IS A SECRET?": modules/05-kubernetes/what-is-a-secret.md
+          - "LAB: ConfigMap & Secret — From Developer Code to DevOps Troubleshooting": modules/05-kubernetes/lab-configmap-secret-from-developer-code-to-devops-troubleshooting.md
+      - Security:
+          - "Kubernetes Security Control Plane vs Data Plane": modules/05-kubernetes/kubernetes-security-control-plane-vs-data-plane.md
+          - "Kubernetes Security Project": modules/05-kubernetes/kubernetes-security-project.md
+          - "Project: Resource Limits & OOMKill in Kubernetes": modules/05-kubernetes/project-resource-limits-oomkill-in-kubernetes.md
+          - "Project: Cloud Guardrails with OPA + Conftest + Config/SecurityHub + Auto-Remediation": modules/05-kubernetes/project-cloud-guardrails-with-opa-conftest-configsecurityhub-auto-remediation.md
+      - "GitOps & CI/CD":
+          - "Origin of GitOps — What Was Formalized and Why It Matters": modules/05-kubernetes/origin-of-gitops-what-was-formalized-and-why-it-matters.md
+          - "Kubernetes CI/CD with GitOps & Argo CD part#1": modules/05-kubernetes/kubernetes-cicd-with-gitops-argo-cd.md
           - "Argo CD Dashboard — Complete Explanation (GitOps Control Center)": modules/05-kubernetes/argo-cd-dashboard-complete-explanation-gitops-control-center.md
           - "Argo CD – Full Power Demonstration (Already Deployed App) part#2": modules/05-kubernetes/argo-cd-full-power-demonstration-already-deployed-app.md
-          - "Blue-Green Deployment on EKS": modules/05-kubernetes/blue-green-deployment-on-eks.md
-          - "canary procedure": modules/05-kubernetes/canary-procedure.md
-          - "canary vs rolling update": modules/05-kubernetes/canary-vs-rolling-update.md
+          - "How ArgoCD Deploys Dev Staging Prod in Real Companies": modules/05-kubernetes/how-argocd-deploys-dev-staging-prod-in-real-companies.md
           - "cd with Argo CD and helm": modules/05-kubernetes/cd-with-argo-cd-and-helm.md
+          - "Lab: Multi-Environment GitOps Platform": modules/05-kubernetes/lab-multi-environment-gitops-platform.md
+          - "HELM — COMPLETE CORE CONCEPTS & CHART EXPLANATION": modules/05-kubernetes/helm-complete-core-concepts-chart-explanation.md
+          - "Helm for DevOps Engineers": modules/05-kubernetes/helm-for-devops-engineers.md
+          - "Helm Kubernetes": modules/05-kubernetes/helm-kubernetes.md
+          - "Multi-Environment Microservice Platform using Helm": modules/05-kubernetes/advanced-helm-project.md
+      - "Projects & Labs":
+          - "kubernetes project #1": modules/05-kubernetes/kubernetes-project-1.md
+          - "Kubernetes Project #2": modules/05-kubernetes/kubernetes-project-2.md
+          - "Kubernetes Services & Ingress. project #1": modules/05-kubernetes/kubernetes-services-ingress-project-1.md
+          - "project: deployment strategy types in k8s": modules/05-kubernetes/project-deployment-strategy-types-in-k8s.md
+          - "Project 2 — Canary Deployment (Compare with Rolling Update)": modules/05-kubernetes/project-2-canary-deployment-compare-with-rolling-update.md
+          - "project canary strategy in deployment": modules/05-kubernetes/project-canary-strategy-in-deployment.md
+          - "project: StatefulSet with replicas": modules/05-kubernetes/project-statefulset-with-replicas.md
+          - "StatefulSet project": modules/05-kubernetes/statefulset-project.md
+          - "MINI PROJECT: Headless Service with StatefulSet (MySQL-style behavior)": modules/05-kubernetes/mini-project-headless-service-with-statefulset-mysql-style-behavior.md
+          - "Project: One App — Three Probes — Real Failures": modules/05-kubernetes/project-one-app-three-probes-real-failures.md
+          - "Project idea – Real-Time Orders Platform": modules/05-kubernetes/project-idea-real-time-orders-platform.md
+          - "PROJECT: DevOps Pulse – Enterprise GitOps Deployment on EKS": modules/05-kubernetes/project-devops-pulse-enterprise-gitops-deployment-on-eks.md
+          - "final job of students: Enterprise Microservices Platform on AWS": modules/05-kubernetes/final-job-of-studentsenterprise-microservices-platform-on-aws.md
+          - "final work for batch #2: ENTERPRISE DEVOPS GOVERNANCE LAB": modules/05-kubernetes/final-work-for-batch-2-enterprise-devops-governance-lab.md
           - "CKA DEPLOYMENT & SERVICE LAB #2": modules/05-kubernetes/cka-deployment-service-lab-2.md
           - "CKA HANDS-ON LABS": modules/05-kubernetes/cka-hands-on-labs.md
           - "CKA PRACTICE LAB": modules/05-kubernetes/cka-related-tasks.md
-          - "CKA-SIMULATION STANDARD 100 labs": modules/05-kubernetes/cka-simulation-standard-100-labs.md
-          - "Deployment strategies": modules/05-kubernetes/deployment-strategies.md
-          - "Developer CI Dev Stage Production": modules/05-kubernetes/developer-ci-dev-stage-production.md
-          - "final job of students: Enterprise Microservices Platform on AWS": modules/05-kubernetes/final-job-of-studentsenterprise-microservices-platform-on-aws.md
-          - "final work for batch #2: ENTERPRISE DEVOPS GOVERNANCE LAB": modules/05-kubernetes/final-work-for-batch-2-enterprise-devops-governance-lab.md
-          - "Headless Services, StatefulSets, Volumes, PV/PVC, Databases, and Production Architecture": modules/05-kubernetes/headless-services-statefulsets-volumes-pvpvc-databases-and-production-architecture.md
-          - "Helm for DevOps Engineers": modules/05-kubernetes/helm-for-devops-engineers.md
-          - "Helm Kubernetes": modules/05-kubernetes/helm-kubernetes.md
-          - "HELM — COMPLETE CORE CONCEPTS & CHART EXPLANATION": modules/05-kubernetes/helm-complete-core-concepts-chart-explanation.md
-          - "How ArgoCD Deploys Dev Staging Prod in Real Companies": modules/05-kubernetes/how-argocd-deploys-dev-staging-prod-in-real-companies.md
-          - "Kubernetes": modules/05-kubernetes/kubernetes.md
-          - "Kubernetes CI/CD with GitOps & Argo CD part#1": modules/05-kubernetes/kubernetes-cicd-with-gitops-argo-cd.md
-          - "Kubernetes Core: Pod Lifecycle & Health, Networking From DevOps Production Interview": modules/05-kubernetes/kubernetes-core-pod-lifecycle-health-networking-from-devops-production-interview.md
+      - "Interview Prep":
           - "Kubernetes Interview Questions & Answers (Professional – 6 Years Experience)": modules/05-kubernetes/kubernetes-interview-questions-answersprofessional-6-years-experience.md
-          - "Kubernetes Networking — DevOps Production Guide": modules/05-kubernetes/kubernetes-networking-devops-production-guide.md
-          - "kubernetes project #1": modules/05-kubernetes/kubernetes-project-1.md
-          - "Kubernetes Project #2": modules/05-kubernetes/kubernetes-project-2.md
-          - "Kubernetes Rolling Update & Downtime": modules/05-kubernetes/kubernetes-rolling-update-downtime.md
-          - "Kubernetes Security Control Plane vs Data Plane": modules/05-kubernetes/kubernetes-security-control-plane-vs-data-plane.md
-          - "Kubernetes Security Project": modules/05-kubernetes/kubernetes-security-project.md
-          - "Kubernetes Services & Ingress. project #1": modules/05-kubernetes/kubernetes-services-ingress-project-1.md
-          - "Kubernetes Services & Networking, probes": modules/05-kubernetes/kubernetes-services-networking.md
-          - "LAB: ConfigMap & Secret — From Developer Code to DevOps Troubleshooting": modules/05-kubernetes/lab-configmap-secret-from-developer-code-to-devops-troubleshooting.md
-          - "Lab: Multi-Environment GitOps Platform": modules/05-kubernetes/lab-multi-environment-gitops-platform.md
-          - "MINI PROJECT: Headless Service with StatefulSet (MySQL-style behavior)": modules/05-kubernetes/mini-project-headless-service-with-statefulset-mysql-style-behavior.md
-          - "Multi-Environment Microservice Platform using Helm": modules/05-kubernetes/advanced-helm-project.md
-          - "Origin of GitOps — What Was Formalized and Why It Matters": modules/05-kubernetes/origin-of-gitops-what-was-formalized-and-why-it-matters.md
-          - "PART 1 — StatefulSet + Headless Service + Persistent Storage": modules/05-kubernetes/part-1-statefulset-headless-service-persistent-storage.md
-          - "Production Canary Architecture (what actually guarantees zero downtime)": modules/05-kubernetes/production-canary-architecture-what-actually-guarantees-zero-downtime.md
-          - "production-grade guide to Configuration & Secrets in Kubernetes": modules/05-kubernetes/production-grade-guide-to-configuration-secrets-in-kubernetes.md
-          - "production-style, fully working MySQL StatefulSet (primary + replicas with headless ClusterIP)": modules/05-kubernetes/production-style-fully-working-mysql-statefulset-primary-replicas-with-headless-clusterip.md
-          - "Project 2 — Canary Deployment (Compare with Rolling Update)": modules/05-kubernetes/project-2-canary-deployment-compare-with-rolling-update.md
-          - "project canary strategy in deployment": modules/05-kubernetes/project-canary-strategy-in-deployment.md
-          - "Project idea – Real-Time Orders Platform": modules/05-kubernetes/project-idea-real-time-orders-platform.md
-          - "Project: Cloud Guardrails with OPA + Conftest + Config/SecurityHub + Auto-Remediation": modules/05-kubernetes/project-cloud-guardrails-with-opa-conftest-configsecurityhub-auto-remediation.md
-          - "project: deployment strategy types in k8s": modules/05-kubernetes/project-deployment-strategy-types-in-k8s.md
-          - "Project: One App — Three Probes — Real Failures": modules/05-kubernetes/project-one-app-three-probes-real-failures.md
-          - "Project: Resource Limits & OOMKill in Kubernetes": modules/05-kubernetes/project-resource-limits-oomkill-in-kubernetes.md
-          - "project: StatefulSet with replicas": modules/05-kubernetes/project-statefulset-with-replicas.md
-          - "Project: Understanding Kubernetes Volume Types": modules/05-kubernetes/project-understanding-kubernetes-volume-types.md
-          - "PROJECT: DevOps Pulse – Enterprise GitOps Deployment on EKS": modules/05-kubernetes/project-devops-pulse-enterprise-gitops-deployment-on-eks.md
-          - "StatefulSet project": modules/05-kubernetes/statefulset-project.md
-          - "What Is a Controller in Kubernetes?": modules/05-kubernetes/what-is-a-controller-in-kubernetes.md
-          - "WHAT IS A SECRET?": modules/05-kubernetes/what-is-a-secret.md
-          - "What problem do Config & Secret solve?": modules/05-kubernetes/what-problem-do-config-secret-solve.md
-          - "Kubernetes Networking — Broken Labs & Incident Response": modules/05-kubernetes/kubernetes-networking-devops-production-guide-2.md
+          - "ADVANCED KUBERNETES INTERVIEW Q&A mock interview #2": modules/05-kubernetes/advanced-kubernetes-interview-qa-mock-interview-2.md
+          - "CKA-SIMULATION STANDARD 100 labs": modules/05-kubernetes/cka-simulation-standard-100-labs.md
   - "06 · CI/CD":
       - modules/06-cicd/index.md
-      - Lectures:
+      - Fundamentals:
           - "L1: CI/CD Concepts & Pipelines": modules/06-cicd/lecture-01-concepts.md
-          - "L2: GitHub Actions in Depth": modules/06-cicd/lecture-02-github-actions.md
-      - Labs:
-          - "Lab 1: Build & Test Pipeline": modules/06-cicd/lab-01-pipeline.md
-          - "Lab 2: Deploy to Kubernetes": modules/06-cicd/lab-02-deployment.md
-      - Articles:
-          - "advanced lab API test with ci/cd": modules/06-cicd/advanced-lab-api-test-with-cicd.md
-          - "AWS EC2 (Ubuntu) — Jenkins Controller (Orchestrator)": modules/06-cicd/aws-ec2-ubuntu-jenkins.md
           - "CI and CD JOBs – What Exactly It Does in Production": modules/06-cicd/ci-and-cd-jobs-what-exactly-it-does-in-production.md
-          - "FULL DEVOPS CI CD LAB gitlab": modules/06-cicd/full-devops-ci-cd-lab-gitlab.md
-          - "GitActions & Jenkins & GitLab differences": modules/06-cicd/gitactions-jenkins-gitlab-differences.md
-          - "GitLab – Full DevOps Lecture": modules/06-cicd/gitlab-full-devops-lecture.md
-          - "gitlab lab": modules/06-cicd/gitlab-lab.md
-          - "How to create shared library lab": modules/06-cicd/how-to-create-shared-library-lab.md
-          - "Install Jenkins": modules/06-cicd/install-jenkins.md
-          - "Jenkins Agents lab": modules/06-cicd/jenkins-agents.md
-          - "Jenkins Agents — Full DevOps Lecture": modules/06-cicd/jenkins-agents-full-devops-lecture.md
-          - "JENKINS controller and agent LAB": modules/06-cicd/jenkins-controller-and-agent-lab.md
-          - "Jenkins lab basics": modules/06-cicd/jenkins-lab-basics.md
-          - "Jenkins Migration & Auto-Trigger Runbook (Mac EC2)": modules/06-cicd/jenkins-migration-auto-trigger-runbookmac-ec2.md
-          - "Jenkins Runs Commands For Me": modules/06-cicd/jenkins-runs-commands-for-me.md
-          - "Jenkinsfile – Advanced Level": modules/06-cicd/jenkinsfile-advanced-level.md
-          - "LAB 1 — GitLab CI + Pages From Scratch": modules/06-cicd/lab-1-gitlab-ci-pages-from-scratch.md
-          - "LAB 1 — Your FIRST Newman Execution (from zero)": modules/06-cicd/lab-1-your-first-newman-execution-from-zero.md
-          - "LAB 2 — Docker + Newman (REAL DEVOPS PIPELINE)": modules/06-cicd/lab-2-docker-newman-real-devops-pipeline.md
-          - "LAB 3 — JWT + Secrets + CI/CD + Newman (PRODUCTION LEVEL)": modules/06-cicd/lab-3-jwt-secrets-cicd-newman-production-level.md
-          - "lab part 3: legacy system production-grade Terraform modules + GitLab": modules/06-cicd/lab-part-2-legacy-system-production-grade-terraform-modules-gitlab.md
-          - "lab part 5: legacy system production-grade Terraform modules + GitLab": modules/06-cicd/lab-part-4-legacy-system-production-grade-terraform-modules-gitlab.md
-          - "lab with Newman API": modules/06-cicd/lab-with-newman-api.md
-          - "LAB: DevOps API Pipeline": modules/06-cicd/lab-devops-api-pipeline.md
-          - "LAB: DevOps API Testing with Postman (FULL REAL SCENARIO)": modules/06-cicd/lab-devops-api-testing-with-postman-full-real-scenario.md
-          - "LAB: From Code Docker GitHub Jenkins Kubernetes": modules/06-cicd/lab-from-code-docker-github-jenkins-kubernetes.md
-          - "LAB: GitLab CI/CD Docker Deploy to AWS EC2": modules/06-cicd/lab-gitlab-cicd-docker-deploy-to-aws-ec2.md
-          - "lab: WHY DevOps Engineers Use Postman + Newman": modules/06-cicd/lab-why-devops-engineers-use-postman-newman.md
           - "MAIN TOPIC: Enterprise-Scale DevOps Architecture": modules/06-cicd/main-topic-enterprise-scale-devops-architecture.md
-          - "Multibranch Pipeline Lab": modules/06-cicd/multibranch-pipeline-lab.md
-          - "NEXT LEVEL LAB — DevOps API Testing (AWS + Auth + CI/CD mindset)": modules/06-cicd/next-level-lab-devops-api-testing-aws-auth-cicd-mindset.md
-          - "what is inside gitlab": modules/06-cicd/what-is-inside-gitlab.md
-          - "what is inside Jenkins": modules/06-cicd/what-is-inside-jenkins.md
+          - "GitActions & Jenkins & GitLab differences": modules/06-cicd/gitactions-jenkins-gitlab-differences.md
+      - Jenkins:
           - "What is Jenkins?": modules/06-cicd/what-is-jenkins-gh.md
           - "what problem solve Jenkins": modules/06-cicd/what-problem-solve-jenkins.md
           - "Why Companies Still Use Jenkins": modules/06-cicd/why-companies-still-use-jenkins.md
+          - "what is inside Jenkins": modules/06-cicd/what-is-inside-jenkins.md
+          - "Install Jenkins": modules/06-cicd/install-jenkins.md
+          - "AWS EC2 (Ubuntu) — Jenkins Controller (Orchestrator)": modules/06-cicd/aws-ec2-ubuntu-jenkins.md
           - "AWS EC2 (Ubuntu) --------------------- Jenkins Controller (Orchestrator)": modules/06-cicd/aws-ec2-ubuntu-jenkins-2.md
+          - "Jenkins Agents — Full DevOps Lecture": modules/06-cicd/jenkins-agents-full-devops-lecture.md
+          - "Jenkins Agents lab": modules/06-cicd/jenkins-agents.md
+          - "JENKINS controller and agent LAB": modules/06-cicd/jenkins-controller-and-agent-lab.md
+          - "Jenkins lab basics": modules/06-cicd/jenkins-lab-basics.md
+          - "Lab 1: Build & Test Pipeline": modules/06-cicd/lab-01-pipeline.md
+          - "Jenkins Runs Commands For Me": modules/06-cicd/jenkins-runs-commands-for-me.md
+          - "Jenkinsfile – Advanced Level": modules/06-cicd/jenkinsfile-advanced-level.md
+          - "Jenkins Migration & Auto-Trigger Runbook (Mac EC2)": modules/06-cicd/jenkins-migration-auto-trigger-runbookmac-ec2.md
+          - "Multibranch Pipeline Lab": modules/06-cicd/multibranch-pipeline-lab.md
+          - "How to create shared library lab": modules/06-cicd/how-to-create-shared-library-lab.md
+      - GitLab:
+          - "what is inside gitlab": modules/06-cicd/what-is-inside-gitlab.md
+          - "GitLab – Full DevOps Lecture": modules/06-cicd/gitlab-full-devops-lecture.md
+          - "gitlab lab": modules/06-cicd/gitlab-lab.md
+          - "FULL DEVOPS CI CD LAB gitlab": modules/06-cicd/full-devops-ci-cd-lab-gitlab.md
+          - "LAB 1 — GitLab CI + Pages From Scratch": modules/06-cicd/lab-1-gitlab-ci-pages-from-scratch.md
+          - "LAB: GitLab CI/CD Docker Deploy to AWS EC2": modules/06-cicd/lab-gitlab-cicd-docker-deploy-to-aws-ec2.md
+          - "lab part 3: legacy system production-grade Terraform modules + GitLab": modules/06-cicd/lab-part-2-legacy-system-production-grade-terraform-modules-gitlab.md
+          - "lab part 5: legacy system production-grade Terraform modules + GitLab": modules/06-cicd/lab-part-4-legacy-system-production-grade-terraform-modules-gitlab.md
+      - "GitHub Actions":
+          - "L2: GitHub Actions in Depth": modules/06-cicd/lecture-02-github-actions.md
+          - "Lab 2: Deploy to Kubernetes": modules/06-cicd/lab-02-deployment.md
+      - Projects:
+          - "LAB: From Code Docker GitHub Jenkins Kubernetes": modules/06-cicd/lab-from-code-docker-github-jenkins-kubernetes.md
+          - "advanced lab API test with ci/cd": modules/06-cicd/advanced-lab-api-test-with-cicd.md
+          - "lab: WHY DevOps Engineers Use Postman + Newman": modules/06-cicd/lab-why-devops-engineers-use-postman-newman.md
+          - "LAB 1 — Your FIRST Newman Execution (from zero)": modules/06-cicd/lab-1-your-first-newman-execution-from-zero.md
+          - "LAB 2 — Docker + Newman (REAL DEVOPS PIPELINE)": modules/06-cicd/lab-2-docker-newman-real-devops-pipeline.md
+          - "LAB 3 — JWT + Secrets + CI/CD + Newman (PRODUCTION LEVEL)": modules/06-cicd/lab-3-jwt-secrets-cicd-newman-production-level.md
+          - "lab with Newman API": modules/06-cicd/lab-with-newman-api.md
+          - "LAB: DevOps API Pipeline": modules/06-cicd/lab-devops-api-pipeline.md
+          - "LAB: DevOps API Testing with Postman (FULL REAL SCENARIO)": modules/06-cicd/lab-devops-api-testing-with-postman-full-real-scenario.md
+          - "NEXT LEVEL LAB — DevOps API Testing (AWS + Auth + CI/CD mindset)": modules/06-cicd/next-level-lab-devops-api-testing-aws-auth-cicd-mindset.md
   - "07 · Terraform":
       - modules/07-terraform/index.md
-      - Lectures:
+      - Fundamentals:
           - "L1: Infrastructure as Code": modules/07-terraform/lecture-01-iac.md
           - "L2: State, Modules & Workspaces": modules/07-terraform/lecture-02-state.md
-      - Labs:
           - "Lab 1: Provision AWS Infrastructure": modules/07-terraform/lab-01-aws.md
-      - Articles:
-          - "3-Tier Lab (Web + App + DB)": modules/07-terraform/3-tier-lab-web-app-db.md
-          - "7 labs that covers all topics of terraform cert, interview": modules/07-terraform/7-labs-that-covers-all-topics-of-terraform-cert-interview.md
-          - "Advanced Terraform Concepts": modules/07-terraform/advanced-terraform-concepts.md
-          - "Advanced Terraform Lab (Production Style)": modules/07-terraform/advanced-terraform-lab-production-style.md
-          - "certification Terraform part #2": modules/07-terraform/certification-terraform-part-2.md
-          - "TERRAFORM PRODUCTION LAB (SENIOR LEVEL)": modules/07-terraform/erraform-production-lab-senior-level.md
-          - "functions, count, for_each, dynamic blocks, and production-style structure": modules/07-terraform/functions-count-foreach-dynamic-blocks-and-production-style-structure.md
-          - "lab part 1: legacy system production-grade Terraform modules + GitLab": modules/07-terraform/lab-legacy-system-production-grade-terraform-modules-gitlab.md
-          - "lab part 2: legacy system production-grade Terraform modules + GitLab": modules/07-terraform/lab-part-2-legacy-system-production-grade-terraform-modules-gitlab.md
-          - "lab part 4: legacy system production-grade Terraform modules + GitLab": modules/07-terraform/lab-part-3-legacy-system-production-grade-terraform-modules-gitlab.md
-          - "lab: centralized terraform module support": modules/07-terraform/lab-centralized-terraform-module-support-28.md
-          - "LAB: Production Terraform Modules (Local + GitHub + Registry + Multi-env)": modules/07-terraform/lab-production-terraform-modules-local-github-registry-multi-env.md
-          - "LAB: Terraform depends_on": modules/07-terraform/lab-terraform-dependson.md
-          - "LAB: Terraform Alias + Workspace + Import (Production Style)": modules/07-terraform/lab-terraform-alias-workspace-import-production-style.md
-          - "LAB: Terraform Dependencies (Implicit vs Explicit)": modules/07-terraform/lab-terraform-dependencies-implicit-vs-explicit.md
-          - "lab: terraform final production grade": modules/07-terraform/lab-terraform-final-production-grade.md
+          - "Terraform": modules/07-terraform/terraform.md
+          - "TERRAFORM FUNDAMENTALS (Core Exam Questions)": modules/07-terraform/terraform-fundamentals-core-exam-questions.md
+          - "Terraform Project: Simple EC2 + Security Group": modules/07-terraform/terraform-project-simple-ec2-security-group.md
           - "LAB: Terraform EC2 with user_data": modules/07-terraform/lab-terraform-ec2-with-userdata.md
-          - "LAB: Terraform Lifecycle (FULL HANDS-ON)": modules/07-terraform/lab-terraform-lifecycle-full-hands-on.md
-          - "LAB: Terraform Provisioners (EC2 + remote-exec + file)": modules/07-terraform/lab-terraform-provisioners-ec2-remote-exec-file.md
+          - "PRODUCTION LAB — Using user_data (BEST PRACTICE)": modules/07-terraform/production-lab-using-userdata-best-practice.md
+      - "State & Backend":
           - "LAB: Terraform Workflow + Import (Production Style)": modules/07-terraform/lab-terraform-workflow-import-production-style.md
           - "lab: What is Terraform import?": modules/07-terraform/what-is-terraform-import.md
-          - "MASTER PROJECT: Terraform State Management, Security & Team Collaboration": modules/07-terraform/master-project-terraform-state-management-security-team-collaboration.md
-          - "PLATFORM ENGINEERING TEAM LAB": modules/07-terraform/platform-engineering-team-lab.md
-          - "PRODUCTION LAB — Using user_data (BEST PRACTICE)": modules/07-terraform/production-lab-using-userdata-best-practice.md
-          - "Production Terraform Disaster Recovery Lab": modules/07-terraform/production-terraform-disaster-recovery-lab.md
-          - "PRODUCTION TERRAFORM MODULES LAB": modules/07-terraform/production-terraform-modules-lab.md
-          - "production-style infrastructure: ALB module infra-modules + infra-live separation": modules/07-terraform/production-style-infrastructure-alb-module-infra-modules-infra-live-separation.md
-          - "PROJECT: Module Reuse + Outputs Consumption": modules/07-terraform/project-module-reuse-outputs-consumption.md
-          - "project: real production-style Terraform": modules/07-terraform/project-real-production-style-terraform.md
-          - "PROJECT: Terraform Challenges in Production": modules/07-terraform/project-terraform-challenges-in-production.md
-          - "project: Terraform Multiple Provider Configuration (Modules)": modules/07-terraform/project-terraform-multiple-provider-configuration-modules.md
-          - "PROJECT: Terraform Workspaces – Dev / Stage / Prod (Production Style)": modules/07-terraform/project-terraform-workspaces-dev-stage-prod-production-style.md
+          - "LAB: Terraform Lifecycle (FULL HANDS-ON)": modules/07-terraform/lab-terraform-lifecycle-full-hands-on.md
+          - "LAB: Terraform Dependencies (Implicit vs Explicit)": modules/07-terraform/lab-terraform-dependencies-implicit-vs-explicit.md
+          - "LAB: Terraform depends_on": modules/07-terraform/lab-terraform-dependson.md
           - "secrets in Terraform. How it handles. project.": modules/07-terraform/secrets-in-terraform-how-it-handles-project.md
-          - "Terraform": modules/07-terraform/terraform.md
-          - "terraform advanced": modules/07-terraform/terraform-advanced.md
-          - "Terraform at Scale + Advanced Concepts": modules/07-terraform/terraform-at-scale-advanced-concepts.md
-          - "Terraform Beginner Interview Questions (with Answers)": modules/07-terraform/terraform-beginner-interview-questions-with-answers.md
-          - "Terraform certificate #3": modules/07-terraform/terraform-certificate-3.md
-          - "terraform certificate #5": modules/07-terraform/terraform-certificate-5.md
-          - "terraform certificate #6": modules/07-terraform/terraform-certificate-6.md
-          - "terraform certification #4": modules/07-terraform/terraform-certification-4.md
-          - "terraform for certification part#1": modules/07-terraform/terraform-for-certification-part1.md
-          - "TERRAFORM FUNDAMENTALS (Core Exam Questions)": modules/07-terraform/terraform-fundamentals-core-exam-questions.md
-          - "Terraform Infrastructure as Code (IaC) Lab – Multi Environment Deployment": modules/07-terraform/terraform-infrastructure-as-code-iac-lab-multi-environment-deployment.md
-          - "Terraform Interview Questions (1–100)": modules/07-terraform/terraform-interview-questions-1-100.md
-          - "TERRAFORM INTERVIEW QUESTIONS (WITH ANSWERS)": modules/07-terraform/terraform-interview-questions-with-answers.md
-          - "Terraform Lab 2 – Deploy Multiple Servers Using for_each": modules/07-terraform/terraform-lab-2-deploy-multiple-servers-using-foreach.md
-          - "Terraform Lab 3: Build a Complete AWS Infrastructure": modules/07-terraform/terraform-lab-3-build-a-complete-aws-infrastructure.md
-          - "Terraform Lab: Count, Variables, Conditional Expressions": modules/07-terraform/terraform-lab-count-variables-conditional-expressions.md
-          - "Terraform Lab: Modules, Outputs, Root vs Child, Structure, Multiple Providers, Workspaces": modules/07-terraform/terraform-lab-modules-outputs-root-vs-child-structure-multiple-providers-workspaces.md
-          - "Terraform Lab: Using locals (Real Project Style)": modules/07-terraform/terraform-lab-using-locals-real-project-style.md
+          - "MASTER PROJECT: Terraform State Management, Security & Team Collaboration": modules/07-terraform/master-project-terraform-state-management-security-team-collaboration.md
+      - Modules:
           - "Terraform Modules Lab (Beginner Intermediate Real-world)": modules/07-terraform/terraform-modules-lab-beginner-intermediate-real-world.md
+          - "Terraform Lab: Modules, Outputs, Root vs Child, Structure, Multiple Providers, Workspaces": modules/07-terraform/terraform-lab-modules-outputs-root-vs-child-structure-multiple-providers-workspaces.md
+          - "LAB: Production Terraform Modules (Local + GitHub + Registry + Multi-env)": modules/07-terraform/lab-production-terraform-modules-local-github-registry-multi-env.md
+          - "PRODUCTION TERRAFORM MODULES LAB": modules/07-terraform/production-terraform-modules-lab.md
+          - "PROJECT: Module Reuse + Outputs Consumption": modules/07-terraform/project-module-reuse-outputs-consumption.md
+          - "project: Terraform Multiple Provider Configuration (Modules)": modules/07-terraform/project-terraform-multiple-provider-configuration-modules.md
           - "TERRAFORM MODULES – COMPLETE INTERVIEW Q&A": modules/07-terraform/terraform-modules-complete-interview-qa.md
-          - "Terraform Project: Simple EC2 + Security Group": modules/07-terraform/terraform-project-simple-ec2-security-group.md
+          - "lab: centralized terraform module support": modules/07-terraform/lab-centralized-terraform-module-support-28.md
+          - "production-style infrastructure: ALB module infra-modules + infra-live separation": modules/07-terraform/production-style-infrastructure-alb-module-infra-modules-infra-live-separation.md
+      - Advanced:
+          - "terraform advanced": modules/07-terraform/terraform-advanced.md
+          - "Advanced Terraform Concepts": modules/07-terraform/advanced-terraform-concepts.md
+          - "functions, count, for_each, dynamic blocks, and production-style structure": modules/07-terraform/functions-count-foreach-dynamic-blocks-and-production-style-structure.md
+          - "Terraform Lab: Count, Variables, Conditional Expressions": modules/07-terraform/terraform-lab-count-variables-conditional-expressions.md
+          - "Terraform Lab: Using locals (Real Project Style)": modules/07-terraform/terraform-lab-using-locals-real-project-style.md
+          - "Terraform Lab 2 – Deploy Multiple Servers Using for_each": modules/07-terraform/terraform-lab-2-deploy-multiple-servers-using-foreach.md
           - "Terraform Provisioners": modules/07-terraform/terraform-provisioners.md
           - "Terraform Provisioners — FULL HANDS-ON LAB": modules/07-terraform/terraform-provisioners-full-hands-on-lab.md
           - "Terraform Provisioners — Interview Q&A": modules/07-terraform/terraform-provisioners-interview-qa.md
+          - "LAB: Terraform Provisioners (EC2 + remote-exec + file)": modules/07-terraform/lab-terraform-provisioners-ec2-remote-exec-file.md
+          - "LAB: Terraform Alias + Workspace + Import (Production Style)": modules/07-terraform/lab-terraform-alias-workspace-import-production-style.md
+          - "PROJECT: Terraform Workspaces – Dev / Stage / Prod (Production Style)": modules/07-terraform/project-terraform-workspaces-dev-stage-prod-production-style.md
           - "Terraform Three-Layer Architecture": modules/07-terraform/terraform-three-layer-architecture.md
           - "Three layer terraform architecture": modules/07-terraform/three-layer-terraform-architecture.md
+          - "Terraform at Scale + Advanced Concepts": modules/07-terraform/terraform-at-scale-advanced-concepts.md
+          - "PLATFORM ENGINEERING TEAM LAB": modules/07-terraform/platform-engineering-team-lab.md
+      - Projects:
+          - "7 labs that covers all topics of terraform cert, interview": modules/07-terraform/7-labs-that-covers-all-topics-of-terraform-cert-interview.md
+          - "3-Tier Lab (Web + App + DB)": modules/07-terraform/3-tier-lab-web-app-db.md
+          - "Advanced Terraform Lab (Production Style)": modules/07-terraform/advanced-terraform-lab-production-style.md
+          - "Terraform Lab 3: Build a Complete AWS Infrastructure": modules/07-terraform/terraform-lab-3-build-a-complete-aws-infrastructure.md
+          - "TERRAFORM PRODUCTION LAB (SENIOR LEVEL)": modules/07-terraform/erraform-production-lab-senior-level.md
+          - "Terraform Infrastructure as Code (IaC) Lab – Multi Environment Deployment": modules/07-terraform/terraform-infrastructure-as-code-iac-lab-multi-environment-deployment.md
+          - "Production Terraform Disaster Recovery Lab": modules/07-terraform/production-terraform-disaster-recovery-lab.md
+          - "lab: terraform final production grade": modules/07-terraform/lab-terraform-final-production-grade.md
+          - "project: real production-style Terraform": modules/07-terraform/project-real-production-style-terraform.md
+          - "PROJECT: Terraform Challenges in Production": modules/07-terraform/project-terraform-challenges-in-production.md
+          - "lab part 1: legacy system production-grade Terraform modules + GitLab": modules/07-terraform/lab-legacy-system-production-grade-terraform-modules-gitlab.md
+          - "lab part 2: legacy system production-grade Terraform modules + GitLab": modules/07-terraform/lab-part-2-legacy-system-production-grade-terraform-modules-gitlab.md
+          - "lab part 4: legacy system production-grade Terraform modules + GitLab": modules/07-terraform/lab-part-3-legacy-system-production-grade-terraform-modules-gitlab.md
+      - "Interview Prep":
+          - "Terraform Beginner Interview Questions (with Answers)": modules/07-terraform/terraform-beginner-interview-questions-with-answers.md
+          - "Terraform Interview Questions (1–100)": modules/07-terraform/terraform-interview-questions-1-100.md
+          - "TERRAFORM INTERVIEW QUESTIONS (WITH ANSWERS)": modules/07-terraform/terraform-interview-questions-with-answers.md
+          - "terraform for certification part#1": modules/07-terraform/terraform-for-certification-part1.md
+          - "certification Terraform part #2": modules/07-terraform/certification-terraform-part-2.md
+          - "Terraform certificate #3": modules/07-terraform/terraform-certificate-3.md
+          - "terraform certification #4": modules/07-terraform/terraform-certification-4.md
+          - "terraform certificate #5": modules/07-terraform/terraform-certificate-5.md
+          - "terraform certificate #6": modules/07-terraform/terraform-certificate-6.md
   - "08 · Monitoring":
       - modules/08-monitoring/index.md
-      - Lectures:
+      - Fundamentals:
           - "L1: Observability Principles": modules/08-monitoring/lecture-01-observability.md
-          - "L2: Prometheus & Grafana": modules/08-monitoring/lecture-02-prometheus.md
-          - "L3: Prometheus & Grafana — Senior Curriculum": modules/08-monitoring/lecture-03-prometheus-grafana.md
           - "L4: SLO, SLA, SLI — Measuring Reliability": modules/08-monitoring/lecture-04-slo-sla-sli.md
-          - "L5: How to Install Prometheus": modules/08-monitoring/lecture-05-install-prometheus.md
           - "L6: Observability, Reliability & Incident Management": modules/08-monitoring/lecture-06-observability.md
-      - Labs:
-          - "Lab 1: Full Monitoring Stack": modules/08-monitoring/lab-01-stack.md
-          - "Lab 1: SRE Monitoring": modules/08-monitoring/lab-01-sre.md
-          - "Lab 2: SRE Monitoring": modules/08-monitoring/lab-02-sre.md
-          - "Lab 2: First Grafana Dashboard": modules/08-monitoring/lab-02-grafana-dashboard.md
-          - "Lab 3: Advanced SRE — Prometheus + Grafana + Node Exporter": modules/08-monitoring/lab-03-advanced-sre.md
-      - Articles:
-          - "Advanced SRE Lab — Prometheus + Grafana + Node Exporter (6 Years Experience Level)": modules/08-monitoring/advanced-sre-lab-prometheus-grafana-node-exporter-6-years-experience-level.md
-          - "DevOps Monitoring & Alerting — Real-World Lab (Prometheus + Grafana)": modules/08-monitoring/devops-monitoring-alerting-real-world-lab-prometheus-grafana.md
-          - "how to install prometheus": modules/08-monitoring/how-to-install-prometheus.md
-          - "Kubernetes Probes — REAL Production Project. SLO, SLA, SLI": modules/08-monitoring/kubernetes-probes-real-production-project-slo-sla-sli.md
-          - "Lab 2 — Your First Grafana Dashboard (Built from Scratch)": modules/08-monitoring/lab-2-your-first-grafana-dashboard-built-from-scratch.md
-          - "Lab: Installing Prometheus & Grafana": modules/08-monitoring/lab-installing-prometheus-grafana.md
-          - "Lab: next lab sre": modules/08-monitoring/lab-next-lab-sre.md
+          - "THE MOST IMPORTANT CONCEPT: MEASURING RELIABILITY: SLO, SLA, SLI": modules/08-monitoring/the-most-important-concept-measuring-reliability-slo-sla-sli.md
           - "Observability, Reliability, and Incident Management (Production-Level)": modules/08-monitoring/observability-reliability-and-incident-management-production-level.md
-          - "project #1: FinTrust Bank — Site Reliability Engineer": modules/08-monitoring/project-1-company-fintrust-bank-digital-banking-platform-your-role-site-reliability.md
+      - Prometheus:
+          - "L2: Prometheus & Grafana": modules/08-monitoring/lecture-02-prometheus.md
+          - "L5: How to Install Prometheus": modules/08-monitoring/lecture-05-install-prometheus.md
           - "Prometheus #1": modules/08-monitoring/prometheus-1.md
           - "Prometheus #2": modules/08-monitoring/prometheus-2.md
-          - "Prometheus & Grafana: Complete Senior DevOps/SRE Curriculum (6+ YOE)": modules/08-monitoring/prometheus-and-grafana.md
+          - "how to install prometheus": modules/08-monitoring/how-to-install-prometheus.md
           - "Prometheus + Node Exporter on Two EC2 Instances": modules/08-monitoring/prometheus-node-exporter-on-two-ec2-instances.md
+          - "Lab: Installing Prometheus & Grafana": modules/08-monitoring/lab-installing-prometheus-grafana.md
+      - Grafana:
+          - "L3: Prometheus & Grafana — Senior Curriculum": modules/08-monitoring/lecture-03-prometheus-grafana.md
+          - "Prometheus & Grafana: Complete Senior DevOps/SRE Curriculum (6+ YOE)": modules/08-monitoring/prometheus-and-grafana.md
+          - "Lab 2: First Grafana Dashboard": modules/08-monitoring/lab-02-grafana-dashboard.md
+          - "Lab 2 — Your First Grafana Dashboard (Built from Scratch)": modules/08-monitoring/lab-2-your-first-grafana-dashboard-built-from-scratch.md
+          - "DevOps Monitoring & Alerting — Real-World Lab (Prometheus + Grafana)": modules/08-monitoring/devops-monitoring-alerting-real-world-lab-prometheus-grafana.md
           - "Prometheus-Grafana project": modules/08-monitoring/prometheus-grafana-project.md
-          - "Spring Boot Container Kubernetes Prometheus Grafana Alerting Secrets CI/CD": modules/08-monitoring/spring-boot-container-kubernetes-prometheus-grafana-alerting-secrets-cicd.md
+      - "SRE Practice":
+          - "Lab 1: SRE Monitoring": modules/08-monitoring/lab-01-sre.md
+          - "Lab 2: SRE Monitoring": modules/08-monitoring/lab-02-sre.md
+          - "Lab 3: Advanced SRE — Prometheus + Grafana + Node Exporter": modules/08-monitoring/lab-03-advanced-sre.md
           - "SRE Monitoring Lab 1": modules/08-monitoring/sre-monitoring-lab-1.md
           - "SRE Monitoring Lab 2": modules/08-monitoring/sre-monitoring-lab-2.md
-          - "THE MOST IMPORTANT CONCEPT: MEASURING RELIABILITY: SLO, SLA, SLI": modules/08-monitoring/the-most-important-concept-measuring-reliability-slo-sla-sli.md
+          - "Advanced SRE Lab — Prometheus + Grafana + Node Exporter (6 Years Experience Level)": modules/08-monitoring/advanced-sre-lab-prometheus-grafana-node-exporter-6-years-experience-level.md
+          - "Kubernetes Probes — REAL Production Project. SLO, SLA, SLI": modules/08-monitoring/kubernetes-probes-real-production-project-slo-sla-sli.md
+          - "Lab: next lab sre": modules/08-monitoring/lab-next-lab-sre.md
+      - Projects:
+          - "Lab 1: Full Monitoring Stack": modules/08-monitoring/lab-01-stack.md
+          - "project #1: FinTrust Bank — Site Reliability Engineer": modules/08-monitoring/project-1-company-fintrust-bank-digital-banking-platform-your-role-site-reliability.md
+          - "Spring Boot Container Kubernetes Prometheus Grafana Alerting Secrets CI/CD": modules/08-monitoring/spring-boot-container-kubernetes-prometheus-grafana-alerting-secrets-cicd.md
   - "09 · AWS (SAA-C04)":
       - modules/09-aws/index.md
-      - Lectures:
+      - "⭐ Enterprise SRE Lab":
+          - "Overview: E-Commerce Platform": modules/09-aws/enterprise-sre-lab-ecommerce-platform.md
+          - "Part 1: AWS Organizations & IAM": modules/09-aws/enterprise-sre-lab-part1-iam.md
+          - "Part 2: Terraform State Backend": modules/09-aws/enterprise-sre-lab-part2-terraform.md
+          - "Part 3: VPC & Network Architecture": modules/09-aws/enterprise-sre-lab-part3-vpc.md
+          - "Part 4: WAF, GuardDuty, Security Hub": modules/09-aws/enterprise-sre-lab-part4-security.md
+          - "Part 5: ECS Fargate & Auto Scaling": modules/09-aws/enterprise-sre-lab-part5-ecs.md
+          - "Part 6: RDS Aurora & ElastiCache Redis": modules/09-aws/enterprise-sre-lab-part6-database.md
+          - "Part 7: Prometheus & Grafana Stack": modules/09-aws/enterprise-sre-lab-part7-monitoring.md
+          - "Part 8: GitHub Actions CI/CD": modules/09-aws/enterprise-sre-lab-part8-cicd.md
+          - "Part 9: 4 Production Runbooks": modules/09-aws/enterprise-sre-lab-part9-runbooks.md
+          - "Part 10: SRE Interview Q&A": modules/09-aws/enterprise-sre-lab-part10-interview.md
+      - Fundamentals:
           - "L0: Cloud Service Models — IaaS, PaaS, SaaS": modules/09-aws/lecture-01-cloud-models.md
           - "L1: Getting Started with AWS": modules/09-aws/lecture-01-getting-started.md
           - "L2: IAM": modules/09-aws/lecture-02-iam.md
-          - "L3: EC2 & Storage": modules/09-aws/lecture-03-ec2.md
-          - "L4: S3": modules/09-aws/lecture-04-s3.md
-          - "L5: Networking — VPC & Route 53": modules/09-aws/lecture-05-networking.md
-          - "L6: Databases": modules/09-aws/lecture-06-databases.md
-          - "L7: Serverless & Containers": modules/09-aws/lecture-07-serverless.md
-          - "L8: Security & Encryption": modules/09-aws/lecture-08-security.md
-          - "L9: VPC — Peering & Transit Gateway": modules/09-aws/lecture-09-vpc.md
-          - "L10: AWS Networking — Full DevOps/SRE Lecture": modules/09-aws/lecture-10-networking.md
-      - Labs:
           - "Lab 1: IAM Setup": modules/09-aws/lab-01-iam-setup.md
-          - "Lab 2: EC2 Deployment": modules/09-aws/lab-02-ec2-deploy.md
-          - "Lab 3: S3 Static Website": modules/09-aws/lab-03-s3-static-site.md
-      - Articles:
-          - "ADVANCED LAB — AWS REAL PROJECT (ECS + ALB + API + Postman + CI/CD)": modules/09-aws/advanced-lab-aws-real-project-ecs-alb-api-postman-cicd.md
-          - "API #2": modules/09-aws/api-2.md
-          - "API part #1": modules/09-aws/api-part-1.md
-          - "AWS Networking Full Lecture for DevOps/SRE": modules/09-aws/aws-networking-full-lecture-for-devopssre.md
-          - "aws alb with asg lab": modules/09-aws/aws-alb-with-asg-lab.md
-          - "AWS ECS Lab": modules/09-aws/aws-ecs-lab.md
-          - "AWS fundamentals: RDS+Aurora+ElastiCache": modules/09-aws/efs-full-guide.md
-          - "AWS Integration & Messaging using SNS + SQS": modules/09-aws/aws-integration-messaging-using-sns-sqs.md
           - "AWS introduction": modules/09-aws/aws-introduction.md
-          - "batch 2 this is second part of serverless": modules/09-aws/batch-2-this-is-second-part-of-serverless.md
-          - "Classic solutions architecture discussions": modules/09-aws/classic-solutions-architecture-discussions.md
           - "Cloud Service Models — Full SRE Lecture: IaaS, PaaS, SaaS": modules/09-aws/cloud-service-models-full-sre-lecture-iaas-paas-saas.md
-          - "CloudFront & Global Accelerator": modules/09-aws/cloudfront-global-accelerator.md
-          - "CloudFront and AWS global accelerator": modules/09-aws/cloudfront-and-aws-global-accelerator.md
+          - "IAM in AWS": modules/09-aws/iam-in-aws.md
           - "Computer and Technology Basics for absolute beginner": modules/09-aws/computer-and-technology-basics-for-absolute-beginner.md
-          - "database": modules/09-aws/database.md
-          - "Decoupled Architecture High-Level Architecture Overview": modules/09-aws/decoupled-architecture-high-level-architecture-overview.md
-          - "EBS, EFS, S3 lab that shows their behaviors": modules/09-aws/ebs-efs-s3-lab-that-shows-their-behaviors.md
-          - "EC2, ASG, ALB, EBS, EFS, S3 questions and answers": modules/09-aws/ec2-asg-alb-ebs-efs-s3-questions-and-answers.md
-          - "EFS Amazon": modules/09-aws/efs-amazon.md
-          - "Full SRE Networking Lecture: What You Must Know After Basic VPC": modules/09-aws/full-sre-networking-lecture-what-you-must-know-after-basic-vpc.md
+          - "What is a Computer?": modules/09-aws/what-is-a-computer.md
           - "Git install": modules/09-aws/git-install.md
           - "GitHub": modules/09-aws/github.md
+          - "SDLC": modules/09-aws/sdlc.md
+          - "Standard DevOps Team Types": modules/09-aws/standard-devops-team-types.md
+          - "Classic solutions architecture discussions": modules/09-aws/classic-solutions-architecture-discussions.md
+          - "Solution architect associate level": modules/09-aws/solution-architect-associate-level.md
+          - "webinar devops #2": modules/09-aws/webinar-devops-2.md
+      - Compute:
+          - "L3: EC2 & Storage": modules/09-aws/lecture-03-ec2.md
+          - "Lab 2: EC2 Deployment": modules/09-aws/lab-02-ec2-deploy.md
           - "High availability and scalability ELB and ASG": modules/09-aws/high-availability-and-scalability-elb-and-asg.md
-          - "IAM in AWS": modules/09-aws/iam-in-aws.md
-          - "interview questions and answers": modules/09-aws/interview-questions-and-answers.md
-          - "interview questions and answers that I will ask #1 Mock interview": modules/09-aws/interview-questions-and-answers-that-i-will-ask-1-mock-interview.md
-          - "interview questions: alb, asg, aurora, database, ads": modules/09-aws/interview-questions-alb-asg-aurora-database-ads.md
-          - "Lab Demo: Private S3 + EC2 + IAM Role": modules/09-aws/lab-demo-private-s3-ec2-iam-role.md
-          - "LAB: 2 EC2 Servers + Group-Based Deployment": modules/09-aws/lab-2-ec2-servers-group-based-deployment.md
-          - "LAB: Amazon RDS Amazon Aurora Amazon ElastiCache": modules/09-aws/lab-amazon-rdsamazon-auroraamazon-elasticache.md
-          - "LAB: Build + Test API (Full Flow)": modules/09-aws/lab-build-test-api-full-flow.md
+          - "aws alb with asg lab": modules/09-aws/aws-alb-with-asg-lab.md
           - "LAB: Demonstrating FULL POWER of ALB + ASG": modules/09-aws/lab-demonstrating-full-power-of-alb-asg.md
           - "Lab: High Availability + Scalability with ASG (EC2) in AWS": modules/09-aws/lab-high-availability-scalability-with-asg-ec2-in-aws.md
-          - "lab: how frontend and backend communicate": modules/09-aws/lab-how-frontend-and-backend-communicate.md
+          - "LAB: 2 EC2 Servers + Group-Based Deployment": modules/09-aws/lab-2-ec2-servers-group-based-deployment.md
+          - "EC2, ASG, ALB, EBS, EFS, S3 questions and answers": modules/09-aws/ec2-asg-alb-ebs-efs-s3-questions-and-answers.md
+          - "AWS ECS Lab": modules/09-aws/aws-ecs-lab.md
+          - "CloudFront & Global Accelerator": modules/09-aws/cloudfront-global-accelerator.md
+          - "CloudFront and AWS global accelerator": modules/09-aws/cloudfront-and-aws-global-accelerator.md
+      - Storage:
+          - "L4: S3": modules/09-aws/lecture-04-s3.md
+          - "Lab 3: S3 Static Website": modules/09-aws/lab-03-s3-static-site.md
+          - "S3": modules/09-aws/s3.md
+          - "S3 bucket with all features": modules/09-aws/s3-bucket-with-all-features.md
+          - "EFS Amazon": modules/09-aws/efs-amazon.md
+          - "AWS fundamentals: RDS+Aurora+ElastiCache": modules/09-aws/efs-full-guide.md
+          - "EBS, EFS, S3 lab that shows their behaviors": modules/09-aws/ebs-efs-s3-lab-that-shows-their-behaviors.md
+          - "Lab Demo: Private S3 + EC2 + IAM Role": modules/09-aws/lab-demo-private-s3-ec2-iam-role.md
+          - "Project: Multi-Web Server + Shared Files + Backup Storage": modules/09-aws/project-multi-web-server-shared-files-backup-storage.md
+      - Networking:
+          - "L5: Networking — VPC & Route 53": modules/09-aws/lecture-05-networking.md
+          - "L9: VPC — Peering & Transit Gateway": modules/09-aws/lecture-09-vpc.md
+          - "L10: AWS Networking — Full DevOps/SRE Lecture": modules/09-aws/lecture-10-networking.md
+          - "ROUTE 53": modules/09-aws/route-53.md
+          - "What is a VPC in AWS? VPC peering, transit": modules/09-aws/what-is-a-vpc-in-aws-vpc-peering-transit.md
+          - "VPC, subnets, IGW, NAT, routing, firewall, DMZ — Part 1": modules/09-aws/vpc-subnets-igw-nat-routing-firewall-dmz-private-db-and-troubleshooting.md
+          - "VPC, subnets, IGW, NAT, routing, firewall, DMZ — Part 2": modules/09-aws/vpc-subnets-igw-nat-routing-firewall-dmz-private-db-and-troubleshooting-part-2.md
+          - "VPC, subnets, IGW, NAT, routing, firewall, DMZ — Part 3": modules/09-aws/vpc-subnets-igw-nat-routing-firewall-dmz-private-db-and-troubleshooting-part-3.md
+          - "AWS Networking Full Lecture for DevOps/SRE": modules/09-aws/aws-networking-full-lecture-for-devopssre.md
+          - "Full SRE Networking Lecture: What You Must Know After Basic VPC": modules/09-aws/full-sre-networking-lecture-what-you-must-know-after-basic-vpc.md
+          - "What is AWS PrivateLink?": modules/09-aws/what-is-aws-privatelink.md
+      - Databases:
+          - "L6: Databases": modules/09-aws/lecture-06-databases.md
+          - "database": modules/09-aws/database.md
+          - "LAB: Amazon RDS Amazon Aurora Amazon ElastiCache": modules/09-aws/lab-amazon-rdsamazon-auroraamazon-elasticache.md
           - "MySQL commands": modules/09-aws/mysql-commands.md
+          - "Why Couchbase Is the NoSQL Solution for Demanding Applications": modules/09-aws/couchbase.md
+      - Serverless:
+          - "L7: Serverless & Containers": modules/09-aws/lecture-07-serverless.md
+          - "Serverless overview from a Solution Architect Perspective": modules/09-aws/serverless-overview-from-a-solution-architect-perspective.md
+          - "batch 2 this is second part of serverless": modules/09-aws/batch-2-this-is-second-part-of-serverless.md
+          - "AWS Integration & Messaging using SNS + SQS": modules/09-aws/aws-integration-messaging-using-sns-sqs.md
+          - "Decoupled Architecture High-Level Architecture Overview": modules/09-aws/decoupled-architecture-high-level-architecture-overview.md
           - "Part 1: Decoupled Architecture (ALB+ASG+EC2+S3+SNS+SQS)": modules/09-aws/alb-asg-ec2-s3-sns-sqs-worker-ec2.md
           - "Part 2: Decoupled Architecture": modules/09-aws/part-2-decoupled-architecture.md
           - "Part 3: Decoupled Architecture": modules/09-aws/part-3-decoupled-architecture.md
@@ -451,54 +489,49 @@ nav:
           - "Part 5: Decoupled Architecture": modules/09-aws/part-5-decoupled-architecture.md
           - "Part 6: Decoupled Architecture": modules/09-aws/part-6-decoupled-architecture.md
           - "Part 7: Decoupled Architecture": modules/09-aws/part-7-decoupled-architecture.md
-          - "project #2: The Apex Platform": modules/09-aws/project-2-the-apex-platform.md
-          - "Project: EKS + DynamoDB + Terraform + CI/CD + Observability": modules/09-aws/project-eks-dynamodb-terraform-cicd-observability.md
+          - "API part #1": modules/09-aws/api-part-1.md
+          - "API #2": modules/09-aws/api-2.md
+          - "LAB: Build + Test API (Full Flow)": modules/09-aws/lab-build-test-api-full-flow.md
+          - "lab: how frontend and backend communicate": modules/09-aws/lab-how-frontend-and-backend-communicate.md
+          - "What is Status Code?": modules/09-aws/what-is-status-code.md
+          - "What Does Pull Mean?": modules/09-aws/what-does-pull-mean.md
           - "Project: Serverless Orders + Profiles": modules/09-aws/project-serverless-orders-profiles.md
           - "Project: Serverless Orders + Profiles part 2": modules/09-aws/project-serverless-orders-profiles-part-2.md
-          - "Project: Multi-Web Server + Shared Files + Backup Storage": modules/09-aws/project-multi-web-server-shared-files-backup-storage.md
-          - "ROUTE 53": modules/09-aws/route-53.md
-          - "S3": modules/09-aws/s3.md
-          - "S3 bucket with all features": modules/09-aws/s3-bucket-with-all-features.md
-          - "SDLC": modules/09-aws/sdlc.md
-          - "Serverless overview from a Solution Architect Perspective": modules/09-aws/serverless-overview-from-a-solution-architect-perspective.md
-          - "Solution architect associate level": modules/09-aws/solution-architect-associate-level.md
-          - "Standard DevOps Team Types": modules/09-aws/standard-devops-team-types.md
-          - "VPC, subnets, IGW, NAT, routing, firewall, DMZ — Part 1": modules/09-aws/vpc-subnets-igw-nat-routing-firewall-dmz-private-db-and-troubleshooting.md
-          - "VPC, subnets, IGW, NAT, routing, firewall, DMZ — Part 2": modules/09-aws/vpc-subnets-igw-nat-routing-firewall-dmz-private-db-and-troubleshooting-part-2.md
-          - "VPC, subnets, IGW, NAT, routing, firewall, DMZ — Part 3": modules/09-aws/vpc-subnets-igw-nat-routing-firewall-dmz-private-db-and-troubleshooting-part-3.md
-          - "webinar devops #2": modules/09-aws/webinar-devops-2.md
-          - "What Does Pull Mean?": modules/09-aws/what-does-pull-mean.md
-          - "What is a Computer?": modules/09-aws/what-is-a-computer.md
-          - "What is a VPC in AWS? VPC peering, transit": modules/09-aws/what-is-a-vpc-in-aws-vpc-peering-transit.md
-          - "What is AWS PrivateLink?": modules/09-aws/what-is-aws-privatelink.md
-          - "What is Status Code?": modules/09-aws/what-is-status-code.md
-          - "Why Couchbase Is the NoSQL Solution for Demanding Applications": modules/09-aws/couchbase.md
+      - Security:
+          - "L8: Security & Encryption": modules/09-aws/lecture-08-security.md
+      - Projects:
+          - "ADVANCED LAB — AWS REAL PROJECT (ECS + ALB + API + Postman + CI/CD)": modules/09-aws/advanced-lab-aws-real-project-ecs-alb-api-postman-cicd.md
+          - "project #2: The Apex Platform": modules/09-aws/project-2-the-apex-platform.md
+          - "Project: EKS + DynamoDB + Terraform + CI/CD + Observability": modules/09-aws/project-eks-dynamodb-terraform-cicd-observability.md
+          - "interview questions and answers": modules/09-aws/interview-questions-and-answers.md
+          - "interview questions and answers that I will ask #1 Mock interview": modules/09-aws/interview-questions-and-answers-that-i-will-ask-1-mock-interview.md
+          - "interview questions: alb, asg, aurora, database, ads": modules/09-aws/interview-questions-alb-asg-aurora-database-ads.md
   - "10 · Ansible":
       - Articles:
-          - "Ansible": modules/10-ansible/ansible.md
-          - "batch #2 market ready interview questions and answers": modules/10-ansible/interview-questions-and-answers.md
-          - "Common DevOps Roles and Responsibilities Today": modules/10-ansible/common-devops-roles-and-responsibilities-today-whos-on-a-devops-team-how-these-roles-work.md
-          - "LAB: Deploy Nginx with Variables, Templates & Handlers": modules/10-ansible/lab-deploy-nginx-with-variables-templates-handlers.md
-          - "LAB: Understanding Playbooks & Agentless Architecture": modules/10-ansible/lab-understanding-playbooks-agentless-architecture.md
           - "What is Ansible?": modules/10-ansible/what-is-ansible.md
+          - "Ansible": modules/10-ansible/ansible.md
+          - "LAB: Understanding Playbooks & Agentless Architecture": modules/10-ansible/lab-understanding-playbooks-agentless-architecture.md
+          - "LAB: Deploy Nginx with Variables, Templates & Handlers": modules/10-ansible/lab-deploy-nginx-with-variables-templates-handlers.md
+          - "Common DevOps Roles and Responsibilities Today": modules/10-ansible/common-devops-roles-and-responsibilities-today-whos-on-a-devops-team-how-these-roles-work.md
+          - "batch #2 market ready interview questions and answers": modules/10-ansible/interview-questions-and-answers.md
   - "11 · Kafka":
       - Articles:
-          - "Confluent Cloud": modules/11-kafka/confluent-cloud.md
-          - "Confluent Kafka": modules/11-kafka/confluent-kafka.md
-          - "Introduction to the Confluent REST Proxy": modules/11-kafka/introduction-to-the-confluent-rest-proxy.md
-          - "KAFKA REAL-TIME MICROSERVICES PROJECT": modules/11-kafka/kafka-real-time-microservices-project.md
           - "Kafka": modules/11-kafka/kafka.md
           - "Understanding Kafka Architecture, Schema Registry, ksqlDB, PostgreSQL": modules/11-kafka/apache-kafka.md
           - "Why We Need Schema Registry in Kafka": modules/11-kafka/why-we-need-schema-registry-in-kafka.md
+          - "Confluent Kafka": modules/11-kafka/confluent-kafka.md
+          - "Confluent Cloud": modules/11-kafka/confluent-cloud.md
+          - "Introduction to the Confluent REST Proxy": modules/11-kafka/introduction-to-the-confluent-rest-proxy.md
+          - "KAFKA REAL-TIME MICROSERVICES PROJECT": modules/11-kafka/kafka-real-time-microservices-project.md
   - "12 · Azure":
       - Articles:
-          - "Azure AKS": modules/12-azure/azure-aks.md
-          - "AZURE NETWORKING + VM LAB": modules/12-azure/azure-networking-vm-lab.md
-          - "Azure VM Deployment & Web Server Lab": modules/12-azure/azure-vm-deployment-web-server-lab.md
-          - "Create an Azure VM and connect with SSH (Mac)": modules/12-azure/create-an-azure-vm-and-connect-with-ssh-mac.md
           - "How to Create and Log Into Microsoft Azure": modules/12-azure/how-to-create-and-log-into-microsoft-azure.md
-          - "Lab: Create Kubernetes Cluster in Azure (AKS)": modules/12-azure/lab-create-kubernetes-cluster-in-azure-aks.md
           - "Microsoft Azure #1": modules/12-azure/microsoft-azure-1.md
+          - "Create an Azure VM and connect with SSH (Mac)": modules/12-azure/create-an-azure-vm-and-connect-with-ssh-mac.md
+          - "Azure VM Deployment & Web Server Lab": modules/12-azure/azure-vm-deployment-web-server-lab.md
+          - "AZURE NETWORKING + VM LAB": modules/12-azure/azure-networking-vm-lab.md
+          - "Lab: Create Kubernetes Cluster in Azure (AKS)": modules/12-azure/lab-create-kubernetes-cluster-in-azure-aks.md
+          - "Azure AKS": modules/12-azure/azure-aks.md
   - Cheatsheets:
       - Git: cheatsheets/git.md
       - Linux: cheatsheets/linux.md
