@@ -33,8 +33,6 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.sections
-    - navigation.expand
-    - navigation.indexes
     - navigation.top
     - search.highlight
     - search.suggest
@@ -43,6 +41,7 @@ theme:
     - content.code.annotate
     - content.tabs.link
     - toc.follow
+    - toc.integrate
 
 plugins:
   - search:
@@ -77,6 +76,9 @@ markdown_extensions:
   - toc:
       permalink: true
       toc_depth: 3
+
+extra_css:
+  - stylesheets/extra.css
 
 extra:
   social:
